@@ -1,0 +1,17 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: projecttyedemo
+#registry: benjkent
+services:
+- name: weather-api
+  project: ProjectTyeDemo.Api/ProjectTyeDemo.Api.csproj
+  bindings:
+  - port: 7000
+- name: blazor-app
+  project: ProjectTyeDemo.App/ProjectTyeDemo.App.csproj
+  bindings:
+  - port: 5800
