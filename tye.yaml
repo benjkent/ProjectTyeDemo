@@ -5,7 +5,7 @@
 #    https://aka.ms/AA7q20u
 #
 name: projecttyedemo
-#registry: benjkent
+#registry: <name-of-docker.io-repository>
 services:
 - name: weather-api
   project: ProjectTyeDemo.Api/ProjectTyeDemo.Api.csproj
